@@ -21,10 +21,11 @@ app.addEventListener("click", function(event){
 
 
 async function open_terminal(){
-  createText("Welcome");
+  createText("A new visitor!");
   await delay(700);
   createText("Starting the server...");
   await delay(1500);
+  createText("Server started!");
   createText("You can run several commands:");
  
   createCode("about", "Who am i and what do i do.");
@@ -42,9 +43,9 @@ function new_line(){
   const span1 = document.createElement("span");
   const span2 = document.createElement("span");
   p.setAttribute("class", "path")
-  p.textContent = "# user";
+  p.textContent = "# root";
   span1.textContent = " in";
-  span2.textContent = " ~/Mohammed Mostafa";
+  span2.textContent = " ~/Mohammed-Mostafa";
   p.appendChild(span1);
   p.appendChild(span2);
   app.appendChild(p);
