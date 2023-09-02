@@ -96,9 +96,9 @@ async function getInputValue(){
     createText("<a href='https://www.instagram.com/mohammed__mostaffaa/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/mohammed__mostaffaa</a>");
     
   }
-  else if(value === "social"){
+  else if(value === "All"){
     trueValue(value);
-    createText("Didn't you mean: social")
+    createText("Didn't you mean: all")
   }
   
   else if(value === "clear"){
